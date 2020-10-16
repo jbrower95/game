@@ -1,0 +1,29 @@
+{
+  "name": "SpookyPuzzleGame",
+  "version": "1.0.0",
+  "description": "A Threejs Boilerplate to aid in quick prototyping",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "cd dist && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "threejs"
+  ],
+  "author": "Justin Brower",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/three": "^0.103.2",
+    "express": "^4.17.1",
+    "node": "^14.13.1",
+    "npm": "^6.14.8",
+    "three": "^0.120.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "nodemon": "^2.0.5",
+    "typescript": "^4.0.3"
+  }
+}
